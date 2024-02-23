@@ -1,8 +1,6 @@
-Aqui está uma versão atualizada do `README.md` para o seu projeto, incluindo detalhes sobre o uso de React e estilização, além da correção sobre a porta padrão do Vite para o frontend:
 
----
 
-# Task Manager
+# Task Manager   Projeto Santander Modulo 2
 
 Projeto de gerenciamento de tarefas que integra uma API Node.js/Express com um frontend React, utilizando React Hook Form para gerenciamento de formulários e Axios para chamadas de API. A interface é estilizada com uma abordagem de design modular, presumivelmente Tailwind CSS ou CSS puro, para uma experiência de usuário agradável e responsiva.
 
