@@ -1,0 +1,14 @@
+.header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: flex; /* Usando Flexbox para alinhar os itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Espaço entre o título e a navegação */
+}
+
+.header h1 {
+    margin: 0; /* Remove a margem padrão do título */
+}
+
+
