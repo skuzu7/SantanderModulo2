@@ -40,10 +40,11 @@ npm run dev
 Acesse o frontend em `http://localhost:5173/` e a API em `http://localhost:3000/`.
 
 Grupo:
-
+```bash
 Cíntia Arantes Silva
 João Vitor de Arruda Lima
 Vinícius Calafange de Carvalho Varela
 Antonio Carlos Jr
+```
 
 
