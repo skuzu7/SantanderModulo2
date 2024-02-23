@@ -20,6 +20,7 @@ app.get("/tasks", (req, res) => {
 app.post("/task", (req, res) => {
   console.log(req.body);
   const name = req.body.name;
+  
   if (!name) {
     return res.status(400).json("Please, insert a name.")
   }
@@ -72,7 +73,10 @@ app.put("/task/:id", (req, res) => {
   tasks = tasks.map(task => {
     if (task.id === Number(id)) {
       task.name = name || task.name; // Aqui ele altera ou nao o nome da tarefa
-      task.checked = checked || task.checked; //
+      if (typeof checked !== 'undefined') {
+        task.checked = checked;
+      }
+      console.log(checked)
     }
     return task;
   })
