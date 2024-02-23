@@ -1,19 +1,48 @@
-# Santander Modulo 2, Projeto em grupo
+Aqui está uma versão atualizada do `README.md` para o seu projeto, incluindo detalhes sobre o uso de React e estilização, além da correção sobre a porta padrão do Vite para o frontend:
 
-Aplicação web com backend em Node.js e frontend em React para o módulo 2 do programa Santander.
+---
 
-## Como Rodar
+# Task Manager
+
+Projeto de gerenciamento de tarefas que integra uma API Node.js/Express com um frontend React, utilizando React Hook Form para gerenciamento de formulários e Axios para chamadas de API. A interface é estilizada com uma abordagem de design modular, presumivelmente Tailwind CSS ou CSS puro, para uma experiência de usuário agradável e responsiva.
+
+## Tecnologias
+
+- **Backend**: Node.js, Express
+- **Frontend**: React, React Hook Form, Axios, Modal para React
+- **Estilização**: CSS Modular/Tailwind CSS
+
+## Funcionalidades
+
+- **API**: Permite operações CRUD - criar, ler, atualizar e deletar tarefas.
+- **Frontend**: 
+  - Visualização e gerenciamento de tarefas
+  - Formulários para adicionar e editar tarefas
+  - Interação intuitiva com modais para edição
+  - Feedback visual para tarefas concluídas
+
+## Instalação
+
+### Backend (Porta 3000)
 
 ```bash
-# Clone o repositório
-git clone https://github.com/skuzu7/santandermodulo2.git
-
-# Backend
-cd santandermodulo2/backend
+cd backend
 npm install
-npm start
+node todo_list.js
+```
 
-# Frontend
-cd santandermodulo2/my-react-frontend
+### Frontend 
+
+```bash
+cd frontend
 npm install
-npm start
+npm run dev
+```
+
+Acesse o frontend em `http://localhost:5173/` e a API em `http://localhost:3000/`.
+
+## Contribuição
+
+Contribuições são bem-vindas! Para contribuir, por favor, abra um issue ou pull request com suas sugestões ou correções.
+
+---
