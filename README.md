@@ -1,6 +1,6 @@
 
 
-# Task Manager   Projeto Santander Modulo 2
+# Task Manager   Projeto Santander Modulo 2  (Grupo)
 
 Projeto de gerenciamento de tarefas que integra uma API Node.js/Express com um frontend React, utilizando React Hook Form para gerenciamento de formulários e Axios para chamadas de API. A interface é estilizada com uma abordagem de design modular,sendo Tailwind CSS , para uma experiência de usuário agradável e responsiva.
 
@@ -39,8 +39,11 @@ npm run dev
 
 Acesse o frontend em `http://localhost:5173/` e a API em `http://localhost:3000/`.
 
-## Contribuição
+Grupo:
 
-Contribuições são bem-vindas! Para contribuir, por favor, abra um issue ou pull request com suas sugestões ou correções.
+Cíntia Arantes Silva
+João Vitor de Arruda Lima
+Vinícius Calafange de Carvalho Varela
+Antonio Carlos Jr
 
----
+
